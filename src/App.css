@@ -1,13 +1,56 @@
 h1 {
-  color: rgb(148, 142, 184);
+  /* color: rgb(148, 142, 184); */
   /* -webkit-text-stroke-color: black; */
   /* -webkit-text-stroke-width: 2px; */
+  /* -webkit-text-stroke: 2px black; */
+}
+
+.name-section {
+  width: 65%;  
+  text-align: right;;
+  /* display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  font-size: 15vw;
+}
+
+.name {
+  color: rgba(0, 0, 0, 0.616);
+  /* color: rgb(148, 142, 184); */
+  font-size: 20vw;
+  padding-right: 5px;
 }
 
 .footer-container {
-  background-color: rgb(148, 142, 184);
+  background-color:rgb(5, 134, 156);
   width: 100%;
+  height:100px;
 }
 
+.header-container {
+  display: inline-flex;
+}
 
+.self-image {
+  width: 45%;
+}
 
+.offcanvas {
+  width: 55%
+}
+
+.textbox{
+  transform: rotate(-90deg);
+  font-size: 2vw;
+}
+
+.me-2 {
+  width: 3%;
+  color: rgb(5, 134, 156);
+}
+
+#projectImg {
+max-height: 400px;
+width: auto;
+}
