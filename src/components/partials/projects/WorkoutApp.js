@@ -9,12 +9,18 @@ const WorkoutApp = () => {
             <div className='project-body'>
 
                 <div className='project-text'>
-                    <h2>app descrip</h2>
-                    <h3>
-                    <a href='https://salty-wildwood-11707.herokuapp.com/'>Deployed</a>
+                <h5>
+                    The Fitness Tracker app is deployed via Heroku and is designed for user ease when logging a workout. The user's workout entries are saved to MongoDB and retrieved using Express.js routes to display user stats.  The technologies and tools used for this app are Express.js, MongoDB, Javascript, HTML and CSS.
                     <br/>
-                    <a href='https://github.com/evapopp/Fitness-Tracker'> Repo </a>
-                    </h3>                        
+                    <br/>
+                    Log your own workout in the app or check out the code that went into creating it.
+                </h5>
+                    <h5>
+                        <div className='project-links'>
+                            <a href='https://salty-wildwood-11707.herokuapp.com/'>Deployed Site</a>
+                            <a href='https://github.com/evapopp/Fitness-Tracker'> Github Repository </a>
+                    </div>
+                </h5>                        
                 </div>
                 <img src={WorkoutImg} alt='screenshot' className='projectImg'/>            
             </div>

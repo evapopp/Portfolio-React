@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
             <div className='about-wd'>
-                I'm an ambitous Full Stack Developer who is driven by the challenges that lay within the field of tech and energized by the ? 
+                I'm an ambitous Full Stack Developer who is driven (curious?) by the challenges that lay within the field of tech and energized by the ? 
                 I draw a lot of creative energy and inspiration from my personal life.                
             </div>
             <div className='about-personal'>

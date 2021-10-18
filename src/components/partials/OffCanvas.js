@@ -1,6 +1,6 @@
 import { Offcanvas, Button } from "react-bootstrap";
 import { useState } from 'react';
-// import About from "./AboutMe";
+import About from "./AboutMe";
 
 
 const options = [
@@ -30,7 +30,7 @@ const options = [
             <Offcanvas.Title>Hey, I'm Eva</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            {/* <About /> */}
+            <About />
           </Offcanvas.Body>
         </Offcanvas>
       </>
