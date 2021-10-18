@@ -1,5 +1,6 @@
 import { Offcanvas, Button } from "react-bootstrap";
 import { useState } from 'react';
+import About from "./AboutMe";
 
 
 const options = [
@@ -20,7 +21,7 @@ const options = [
       <>
         <Button variant="light-alert" onClick={toggleShow} className="me-2">
                 <div className='textbox'>
-                    Hey-
+                    About
                 {/* {name} */}
                 </div>
         </Button>
@@ -29,8 +30,7 @@ const options = [
             <Offcanvas.Title>Hey, I'm Eva</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
+            <About />
           </Offcanvas.Body>
         </Offcanvas>
       </>

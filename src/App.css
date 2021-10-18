@@ -5,6 +5,11 @@ h1 {
   /* -webkit-text-stroke: 2px black; */
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .name-section {
   width: 65%;  
   text-align: right;;
@@ -16,16 +21,24 @@ h1 {
 }
 
 .name {
-  color: rgba(0, 0, 0, 0.616);
+   color: rgba(0, 0, 0, 0.616);
+  /* color:burlywood; */
   /* color: rgb(148, 142, 184); */
   font-size: 20vw;
   padding-right: 5px;
 }
 
 .footer-container {
-  background-color:rgb(5, 134, 156);
+  background-color:hsl(34, 34%, 54%);
   width: 100%;
   height:100px;
+}
+
+.offcanvas {
+  /* background-color: rgb(148, 142, 184); */
+  /* background-color:rgb(5, 134, 156); */
+  background-color: hsl(34, 34%, 54%);
+  color: white;
 }
 
 .header-container {
@@ -50,13 +63,34 @@ h1 {
   color: rgb(5, 134, 156);
 }
 
+.portfolio-text {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  height: 15vw;
+  background-color: rgb(148, 142, 184);
+}
+
+.accordion-body {
+  /* background-color: burlywood; */
+  background-color:rgb(5, 134, 156);
+  color: white;
+}
+
 .project-header {
   text-align: center;
+  padding: 10px;
+
 }
 
 .project-body {
   width: 100%;
   display: inline-flex;
+  /* color: white; */
 }
 
 .projectImg {
@@ -68,4 +102,18 @@ h1 {
   width: 50vw;
   display: inline-flex;
   flex-direction: column;
+  padding: 10px;
 }
+
+.accordion-button {
+
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  /* background-color: rgba(0, 0, 0, 0.616); */
+  background-color: hsl(34, 34%, 54%);
+  color: white;
+}
+

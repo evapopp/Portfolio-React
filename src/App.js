@@ -10,8 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Header />
-      Portfolio
-      <Portfolio/>
+        <Portfolio/>
         <Footer />
       </header>
     </div>

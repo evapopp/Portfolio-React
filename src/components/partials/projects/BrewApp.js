@@ -7,10 +7,14 @@ const BrewApp = () => {
                 <h1> The Brewery App for anywhere you are </h1>                
             </div>
             <div className='project-body'>
-                <img src={brewImg} alt='brewery app screenshot' className='projectImg'/>
+                <img src={brewImg} alt='screenshot' className='projectImg'/>
                 <div className='project-text'>
                     <h2>app descrip</h2>
-                    <h3> links</h3>                        
+                    <h3> 
+                        <a href='https://brewery-app.netlify.app/'>Deployed</a>
+                        <br/>
+                        <a href='https://github.com/evapopp/brewery-tracker'> Repo </a>
+                    </h3>                        
                 </div>
             
             </div>

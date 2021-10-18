@@ -1,9 +1,9 @@
+
+
 const About = () => {
     return (
         <div>
-            <h2>
-                {/* About Me */}
-            </h2>
+            I'm an ambitous Full Stack Developer who is driven by the challenges that lay within the field of tech and energized by the ?
         </div>
     )
 }
