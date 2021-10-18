@@ -38,6 +38,8 @@ a {
   /* background-color: rgb(148, 142, 184); */
   /* background-color:rgb(5, 134, 156); */
   background-color: hsl(34, 34%, 54%);
+  /* dark orange */
+  /* background-color: rgb(161, 89, 16); */
   color: white;
 }
 
@@ -73,11 +75,16 @@ a {
   color: white;
   height: 15vw;
   background-color: rgb(148, 142, 184);
+  /* background-color:rgb(72, 94, 34); */
+  /* background-color:rgb(41, 83, 90); */
 }
 
 .accordion-body {
-  /* background-color: burlywood; */
+  /* light blue */
   background-color:rgb(5, 134, 156);
+  /* dark blue */
+  /* background-color:rgb(41, 83, 90); */
+  
   color: white;
 }
 
@@ -105,15 +112,29 @@ a {
   padding: 10px;
 }
 
-.accordion-button {
+.project-links {
+  display: grid;
+  justify-items: center;
+  margin: 8px 0px 5px 0px;
+}
 
+.accordion-button {
+  /* dark orange */
+  /* background-color: rgb(158, 98, 37); */
+  /* gray */
   background-color: rgba(0, 0, 0, 0.616);
   color: white;
 }
 
 .accordion-button:not(.collapsed) {
+  /* gray */
   /* background-color: rgba(0, 0, 0, 0.616); */
+  /* dakr khaki */
   background-color: hsl(34, 34%, 54%);
+  /* dakr orange */
+  /* background-color: rgb(158, 98, 37); */
+  /* pale purple */
+  /* background-color: rgb(148, 142, 184); */
   color: white;
 }
 

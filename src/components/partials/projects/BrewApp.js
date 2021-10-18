@@ -9,12 +9,23 @@ const BrewApp = () => {
             <div className='project-body'>
                 <img src={brewImg} alt='screenshot' className='projectImg'/>
                 <div className='project-text'>
-                    <h2>app descrip</h2>
-                    <h3> 
-                        <a href='https://brewery-app.netlify.app/'>Deployed</a>
+                    <h5>
+                        The Brews for You app is a serverless site which fetches brewery data from a third party API based on  a user's location query. The user can then select a brewery from the data list to get the brewery's address, phone number and website. The technologies used in this app are Javascript, CSS and HTML. 
                         <br/>
-                        <a href='https://github.com/evapopp/brewery-tracker'> Repo </a>
-                    </h3>                        
+                        <br/>
+                        Additions I would like to add to this site in the future: an option to save a selected brewery (and it's data) to a favorites list for easy retrieval.
+                        <br/>
+                        <br/>
+                        Feel free to try out the site yourself, or take a look at the code that went into creating it. 
+
+                    </h5>
+                    <h5> 
+                        <div className='project-links'>
+                            <a href='https://brewery-app.netlify.app/'>Deployed Site</a>
+
+                            <a href='https://github.com/evapopp/brewery-tracker'> Github Repository </a>
+                        </div>
+                    </h5>                        
                 </div>
             
             </div>

@@ -1,4 +1,4 @@
-import About from './partials/AboutMe'
+// import About from './partials/AboutMe'
 import selfImage from './images/close-up.jpg'
 import Example from './partials/OffCanvas';
 
@@ -10,7 +10,6 @@ const Header = () => {
                 <h1 className='name'>
                     Eva Popp
                 </h1>
-                <About/>
             </div>
             <img src={selfImage} alt='self' className='self-image'/>            
         </div>
