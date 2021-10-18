@@ -1,9 +1,13 @@
-import PortfolioCarousel from './partials/PortfolioCarousel';
+
+import PortfolioAccordian from './partials/Accordian';
 
 const Portfolio = () => {
     return (
         <div>
-            <PortfolioCarousel />
+            <div className='portfolio-text'>
+
+            </div>
+            <PortfolioAccordian />
         </div>
     )
 }
