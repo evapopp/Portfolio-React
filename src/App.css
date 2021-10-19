@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital@1&display=swap'); */
+
 h1 {
   /* color: rgb(148, 142, 184); */
   /* -webkit-text-stroke-color: black; */
@@ -29,15 +31,18 @@ a {
 }
 
 .footer-container {
-  background-color:hsl(34, 34%, 54%);
+  /* background-color:hsl(34, 34%, 54%); */
+  background-color: rgb(160, 85, 11);
   width: 100%;
-  height:100px;
+  height:fit-content;
+  justify-content: center;
 }
 
 .offcanvas {
   /* background-color: rgb(148, 142, 184); */
   /* background-color:rgb(5, 134, 156); */
   background-color: hsl(34, 34%, 54%);
+  /* background-color: rgb(160, 85, 11); */
   /* dark orange */
   /* background-color: rgb(161, 89, 16); */
   color: white;
@@ -74,16 +79,19 @@ a {
   flex-wrap: wrap;
   color: white;
   height: 15vw;
-  background-color: rgb(148, 142, 184);
+  font-size: large;
+  /* background-color: rgb(148, 142, 184); */
+  
   /* background-color:rgb(72, 94, 34); */
-  /* background-color:rgb(41, 83, 90); */
+  
+  background-color:rgb(41, 83, 90);
 }
 
 .accordion-body {
   /* light blue */
-  background-color:rgb(5, 134, 156);
+  /* background-color:rgb(5, 134, 156); */
   /* dark blue */
-  /* background-color:rgb(41, 83, 90); */
+  background-color:rgb(41, 83, 90);
   
   color: white;
 }
@@ -91,6 +99,8 @@ a {
 .project-header {
   text-align: center;
   padding: 10px;
+  font-family: 'Athiti', sans-serif;
+  font-weight: 600;
 
 }
 
@@ -113,13 +123,18 @@ a {
   width: 50vw;
   display: inline-flex;
   flex-direction: column;
+  justify-content: space-evenly;
   padding: 0px 15px 0px 15px;
+  /* font-family: 'Asap Condensed', sans-serif; */
+  font-family: 'Athiti', sans-serif;
+  /* font-family: 'Molengo', sans-serif; */
 }
 
 .project-links {
   display: grid;
   justify-items: center;
   margin: 8px 0px 5px 0px;
+  font-style: italic;
 }
 
 .accordion-button {
@@ -134,11 +149,19 @@ a {
   /* gray */
   /* background-color: rgba(0, 0, 0, 0.616); */
   /* dakr khaki */
-  background-color: hsl(34, 34%, 54%);
+  /* background-color: hsl(34, 34%, 54%); */
   /* dakr orange */
   /* background-color: rgb(158, 98, 37); */
   /* pale purple */
-  /* background-color: rgb(148, 142, 184); */
+  /* background-color: rgb(112, 107, 139); */
+    background-color:rgb(5, 134, 156);
   color: white;
 }
 
+.footer-img {
+  width: 10%;
+}
+
+.schwa {
+  font-style: italic;
+}
