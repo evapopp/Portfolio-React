@@ -9,7 +9,7 @@ const WorkoutApp = () => {
             <div className='project-body'>
 
                 <div className='project-text'>
-                <h5>
+                <h5 className='h5text'>
                     The Fitness Tracker app is deployed via Heroku and is designed for user ease when logging a workout. The user's workout entries are saved to MongoDB and retrieved using Express.js routes to display user stats.  The technologies and tools used for this app are Express.js, MongoDB, Javascript, HTML and CSS.
                     <br/>
                     <br/>

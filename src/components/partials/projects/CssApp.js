@@ -9,7 +9,7 @@ const CssApp = () => {
             <div className='project-body'>
 
                 <div className='project-text'>
-                    <h5>
+                    <h5 className='h5text'>
                         The CSS Cheatsheet app gives a few, quick CSS styling codes including psuedo classes. The application's layout is responsive and uses point breaks to make it easily viewable on any device. The technologies used for this application are CSS and HTML.
                         <br/>
                         <br/>

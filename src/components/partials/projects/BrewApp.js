@@ -9,7 +9,7 @@ const BrewApp = () => {
             <div className='project-body'>
                 <img src={brewImg} alt='screenshot' className='projectImg'/>
                 <div className='project-text'>
-                    <h5>
+                    <h5 className='h5text'>
                         The Brews for You app is a serverless site which fetches brewery data from a third party API based on  a user's location query. The user can then select a brewery from the data list to get the brewery's address, phone number and website. The technologies and tools used in this app are Node-Fetch, Javascript, CSS and HTML. 
                         <br/>
                         <br/>

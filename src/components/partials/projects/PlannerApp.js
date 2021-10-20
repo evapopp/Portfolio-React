@@ -9,7 +9,7 @@ const PlannerApp = () => {
             <div className='project-body'>
                 <img src={plannerImg} alt='screenshot' className='projectImg'/>  
                 <div className='project-text'>
-                    <h5>
+                    <h5 className='h5text'>
                         The Work Day Scheduler app allows a user to enter an event into the given time slots and save it via localStorage. The application uses Moment.js to render the date and also color code the timeslots to indicate which slots are in the past, future, or the current hour. The technologies and tools used for this app are Moment.js, jQuery, Javascript, CSS and HTML.
                         <br/>
                         <br/>

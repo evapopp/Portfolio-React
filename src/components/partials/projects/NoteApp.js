@@ -9,7 +9,7 @@ const NoteApp = () => {
             <div className='project-body'>
 
                 <div className='project-text'>
-                    <h5>
+                    <h5 className='h5text'>
                         The Note Taker application allows a user to input text, save it, and return to the note files at a later time.The user's notes are saved to a JSON file and retrieved using Express.js routes. The site is deployed via Heroku. The technologies and tools used for this app are Express.js, Javascript, CSS and HTML. 
                         <br/>
                         <br/>

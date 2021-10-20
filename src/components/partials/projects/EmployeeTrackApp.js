@@ -11,7 +11,7 @@ const EmployeeApp = () => {
                     <source src={DemoVid} type='video/mp4'></source>
                 </video> 
                 <div className='project-text'>
-                    <h5>
+                    <h5 className='h5text'>
                         The Employee Management Tracker is a command-line application that can be used to manage a company's employee database. The app uses the MySQL2 npm package for the employee database and performs user queries via the Inquirer package to retrieve and print table data. A user can view, create and update an employee, employee role and department via the command-line within their Node shell. The technologies and tools used for this app are SQL, Inquirer, Node.js, Javascript
                         <br/>
                         <br/>

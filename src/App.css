@@ -135,6 +135,11 @@ a {
   justify-content: space-evenly;
   padding: 0px 15px 0px 15px;
   font-family: 'Athiti', sans-serif;
+
+}
+
+.h5text {
+  font-weight: 200;
 }
 
 .project-links {
