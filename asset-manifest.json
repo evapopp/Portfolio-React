@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.01be0524.chunk.css",
-    "main.js": "/Portfolio-React/static/js/main.a6084bf0.chunk.js",
-    "main.js.map": "/Portfolio-React/static/js/main.a6084bf0.chunk.js.map",
+    "main.css": "/Portfolio-React/static/css/main.f0ef207d.chunk.css",
+    "main.js": "/Portfolio-React/static/js/main.0cad41c1.chunk.js",
+    "main.js.map": "/Portfolio-React/static/js/main.0cad41c1.chunk.js.map",
     "runtime-main.js": "/Portfolio-React/static/js/runtime-main.d8cea2e2.js",
     "runtime-main.js.map": "/Portfolio-React/static/js/runtime-main.d8cea2e2.js.map",
     "static/css/2.c1256375.chunk.css": "/Portfolio-React/static/css/2.c1256375.chunk.css",
@@ -10,23 +10,25 @@
     "static/js/2.af61e00d.chunk.js.map": "/Portfolio-React/static/js/2.af61e00d.chunk.js.map",
     "index.html": "/Portfolio-React/index.html",
     "static/css/2.c1256375.chunk.css.map": "/Portfolio-React/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.01be0524.chunk.css.map": "/Portfolio-React/static/css/main.01be0524.chunk.css.map",
+    "static/css/main.f0ef207d.chunk.css.map": "/Portfolio-React/static/css/main.f0ef207d.chunk.css.map",
     "static/js/2.af61e00d.chunk.js.LICENSE.txt": "/Portfolio-React/static/js/2.af61e00d.chunk.js.LICENSE.txt",
     "static/media/brew-app.01fa7003.png": "/Portfolio-React/static/media/brew-app.01fa7003.png",
     "static/media/close-up.254dce43.jpg": "/Portfolio-React/static/media/close-up.254dce43.jpg",
     "static/media/css-app.e9aa984f.png": "/Portfolio-React/static/media/css-app.e9aa984f.png",
+    "static/media/delaney.e3ff7497.jpg": "/Portfolio-React/static/media/delaney.e3ff7497.jpg",
     "static/media/email.4a8a4224.png": "/Portfolio-React/static/media/email.4a8a4224.png",
     "static/media/employee-tracker.b64b3a9c.mp4": "/Portfolio-React/static/media/employee-tracker.b64b3a9c.mp4",
     "static/media/github.5eab40a0.png": "/Portfolio-React/static/media/github.5eab40a0.png",
     "static/media/note-app.174772d4.png": "/Portfolio-React/static/media/note-app.174772d4.png",
     "static/media/planner-app.8d58bdf5.png": "/Portfolio-React/static/media/planner-app.8d58bdf5.png",
+    "static/media/stevie.cd9489d2.jpg": "/Portfolio-React/static/media/stevie.cd9489d2.jpg",
     "static/media/workout-app.ebbe031e.png": "/Portfolio-React/static/media/workout-app.ebbe031e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d8cea2e2.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.af61e00d.chunk.js",
-    "static/css/main.01be0524.chunk.css",
-    "static/js/main.a6084bf0.chunk.js"
+    "static/css/main.f0ef207d.chunk.css",
+    "static/js/main.0cad41c1.chunk.js"
   ]
 }
